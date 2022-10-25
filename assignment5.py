@@ -1,11 +1,5 @@
-asciidict = dict()
-alfapetTeller = range(97,123)
-for i in alfapetTeller:
-    asciidict[str(i)] = chr(i)
-print(asciidict)
-asciidict[chr(i)] = i
-
-
-import string
-d = {c: ord(c) for c in string.ascii_lowercase}  
-print(d)
+my_dict={}
+for i in range(97,97+26):
+    my_dict[chr(i)]=i
+    print(my_dict)
+    
